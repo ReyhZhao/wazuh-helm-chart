@@ -52,7 +52,7 @@ uiSettings.overrides.defaultRoute: /app/wz-home
   <global>
     <jsonout_output>yes</jsonout_output>
     <alerts_log>yes</alerts_log>
-    <logall>no</logall>
+    <logall>yes</logall>
     <logall_json>no</logall_json>
     <email_notification>no</email_notification>
     <smtp_server>smtp.example.wazuh.com</smtp_server>
@@ -411,7 +411,7 @@ vulnerability-detection.disable_scan_manager=0
   <global>
     <jsonout_output>yes</jsonout_output>
     <alerts_log>yes</alerts_log>
-    <logall>no</logall>
+    <logall>yes</logall>
     <logall_json>no</logall_json>
     <email_notification>no</email_notification>
     <smtp_server>smtp.example.wazuh.com</smtp_server>
